@@ -677,10 +677,11 @@ border: 2px solid    #004602a0;;
 
 /*  section 5 */
 .footer {
+  /* width: 100%; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 20px 0;
     background-color: #f0f0f0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.473);
 }
@@ -688,7 +689,7 @@ border: 2px solid    #004602a0;;
 .footer-column {
     flex: 1;
     /* text-align: center; */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .footer-column img {
@@ -703,7 +704,8 @@ border: 2px solid    #004602a0;;
 }
 
 .footer-column ul li {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    font-size: 12px;
 }
 
 
@@ -712,7 +714,22 @@ border: 2px solid    #004602a0;;
   /* background-color: blue; */
 }
 
+.two{
+padding-left: 25px;
+}
 
+ .one{
+display: none;
+}
+
+#actt{
+  color: white;
+}
+
+.footerr-section h5{
+  margin: 0;
+  padding-top: 5px;
+}
 
 .footer-img{
   display: flex;
@@ -763,11 +780,17 @@ border: 2px solid    #004602a0;;
 /*  section 6 */
 
 .footerr {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #212121;
+}
+
+
+.footerr h4{
+  color: white;
 }
 
 .footerr-section {
@@ -778,16 +801,20 @@ border: 2px solid    #004602a0;;
 .footerr-social-icons {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .footerr-social-icons a {
     margin: 0 10px;
 }
 
-
+.footerr-social-icons a, i {
+  color: white;
+}
 #footer-heading1{
   font-size: 21px;
   font-weight: 600;
+
 }
 
 
@@ -807,6 +834,7 @@ border: 2px solid    #004602a0;;
 #AboutUs{
   font-size: 21px;
   font-weight: 600;
+
 }
 
 
@@ -818,10 +846,6 @@ border: 2px solid    #004602a0;;
 
 
 
-.section5 {
-  font-size: 10px;
-
-}
 
 
 

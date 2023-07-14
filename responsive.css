@@ -160,6 +160,14 @@
         height: auto;
     }
 
+.four{
+  padding-left: 20px;
+}
+
+    .two{
+      padding-left: 20px;
+    }
+
 }
 
 
@@ -392,9 +400,79 @@
   font-weight: 600;
 }
 
+
+.footer-img {
+  margin-top: 12px;
+  gap: 0;
+
 }
 
 
+
+.footer-img img {
+ height: 40px;
+
+}
+
+
+
+#footer-heading1{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+#Candidates{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+#Employers{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+#AboutUs{
+ font-size: 18px; 
+  font-weight: 600;
+}
+
+
+#Helpful {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.footer-column {
+  margin: 0 auto;
+  /* margin-bottom: 0px; */
+}
+
+
+.two{
+  padding-left: 0;
+}
+
+
+
+.footer-column ul li {
+font-size: 12px;
+line-height: 8px;
+}
+
+.footerr{
+  padding: 2px;
+}
+
+.four{
+  padding-left: 0px;
+}
+
+}
 /* ---------------------------------- */
 
 
@@ -463,8 +541,8 @@
     margin-top: 12px;
   }
 
-
-
-
-
+  .footerr {
+    padding: 5px;
+  }
 }
+
